@@ -87,6 +87,9 @@ $result_s = mysqli_query($conn, $query_s);
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Prototype for a site to book a place in the queue for one of the Seven Wonders of the World">
+<meta name="keywords" content="Angela Iredia, Prototype, Seven Wonders of the World, Virtual Queues, Historical Sites, Monuments, UI">
+<meta name="author" content="Angela Iredia">
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	
