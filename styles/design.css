@@ -7,6 +7,19 @@ body {
   
 }
 
+html,body {
+  margin:0;
+  padding:0;
+}
+
+.col-sm-12{
+  padding:0;
+}
+
+
+
+
+
 h1{
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	align-content: center;
@@ -386,6 +399,13 @@ input[type=submit]{
 #accept{
 	font-size: 7px;
 }	
+
+.section_banner_1 .col-sm-6 .col-sm-5 .col-sm-1{
+  padding: 0;
+  margin: 0;
+}
+
+
 	
 }
 
@@ -402,5 +422,60 @@ input[type=submit]{
     float: none;
     display: block;
     text-align: left;
+  }
+
+  .description-site{
+    text-align: justify;
+    text-align-last: center;
+    font-size: 16px;
+    padding-left: 6%;
+    padding-right: 4%;
+  }
+
+  .section_banner p{
+    font-size: 20px;
+    padding: 8%;
+  }
+
+  .section_banner_1{
+    height: 1000px;
+  }
+  .section_banner_2{
+    height: 2500px;
+  }
+
+  .section_banner_2 .p{
+    text-align: justify;
+    text-align-last: center;
+    font-size: 16px;
+  }
+
+  .section_banner_2 .col-sm-3{
+    padding-right: 10%;
+    font-size: 16px;
+    text-align: justify;
+    text-align-last: center;
+  }
+
+  .RetrieveForm #name, #number{
+    width: 90%;
+   }
+
+   .section_banner_5 h2{
+    font-size: 25px;
+   }
+
+   .section_banner_5 p{
+    font-size: 16px;
+   }
+}
+
+@media screen and (min-width: 600px) and (max-width: 850px){
+  .section_banner p{
+    font-size: 26px;
+  }
+  
+  .section_banner_2{
+    height: 1200px;
   }
 }

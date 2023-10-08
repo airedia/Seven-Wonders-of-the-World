@@ -52,7 +52,8 @@ session_start();
 </head>
 <header>	
 
-	
+<div class="row">
+<div class="col-sm-12"> 	
  
 <div class="topnav" id="myTopnav">
   <a href="#booking" class="active">Retrieve Your Booking</a>
@@ -74,7 +75,8 @@ function myFunction() {
   }
 }
 </script>
-	  
+</div>
+</div>
   </header>	
 	
 	
@@ -93,7 +95,7 @@ function myFunction() {
       <br>
       <p>Retrieve your booking here</p>
   <div id="retrieve_data">
-    <form action="" method="POST" id="RetrieveForm">
+    <form action="" method="POST" class="RetrieveForm">
 
       <br>
       <legend>Name on the Booking</legend>
@@ -101,18 +103,18 @@ function myFunction() {
 
       <legend>Historical Site</legend>
         <select name="sites" id="sites" required>
-        <option value="Colosseum, Italy">Colosseum, Italy</option>
-        <option value="Petra, Jordan">Petra, Jordan</option>
-      <option value="Great Wall, China">Great Wall, China</option>
-      <option value="Machu Picchu, Peru">Machu Picchu, Peru</option>
-	  <option value="Taj Mahal, India">Taj Mahal, India</option>
-	  <option value="Chichen Itza, Mexico">Chichen Itza, Mexico</option>
-	  <option value="Great Pyramid, Egypt">Great Pyramid, Egypt</option>
+        <option value="colosseum_italy">Colosseum, Italy</option>
+        <option value="petra_jordan">Petra, Jordan</option>
+      <option value="great_wall_china">Great Wall, China</option>
+      <option value="machu_picchu_peru">Machu Picchu, Peru</option>
+	  <option value="taj_mahal_india">Taj Mahal, India</option>
+	  <option value="chichen_itza_mexico">Chichen Itza, Mexico</option>
+	  <option value="great_pyramid_egypt">Great Pyramid, Egypt</option>
    </select>
 	<br><br>
 
       <legend>Ticket Number/ID</legend>
-      <input type="number" name="ID" id="name" required> <br><br>
+      <input type="number" name="ID" id="number" required> <br><br>
 
       <input type="submit" id="submit" name="submit" value="Retrieve" onclick="myFunction1()">
       <script>
@@ -230,6 +232,8 @@ document.getElementById('retrieve_data').innerHTML = '$msg';
 
 </body>
 
+<div class="row">
+  <div class="col-sm-12">
 <footer>
 <div class="links">
 	<div class="row">	
@@ -243,6 +247,8 @@ document.getElementById('retrieve_data').innerHTML = '$msg';
 	
 	</div>
 	</footer>	
+  </div>	
+	</div>
 	
 </html> 
 	

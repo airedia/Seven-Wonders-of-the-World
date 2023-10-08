@@ -91,11 +91,17 @@ $result_s = mysqli_query($conn, $query_s);
 <meta name="keywords" content="Angela Iredia, Prototype, Seven Wonders of the World, Virtual Queues, Historical Sites, Monuments, UI">
 <meta name="author" content="Angela Iredia">
 
+
+<!-- Bootstrap framework  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> 
+<script  src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	
 <title>Homepage</title>
 
-
+<!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" /> -->	
 <link rel="stylesheet" type="text/css" href="styles/design.css" /> 
 
 <!-- Ajax and Javascript -->
@@ -108,8 +114,8 @@ $result_s = mysqli_query($conn, $query_s);
 	
 	
 <header>	
-
-	
+<div class="row">
+<div class="col-sm-12"> 
  
 <div class="topnav" id="myTopnav">
   <a href="#home" class="active">Home</a>
@@ -135,7 +141,8 @@ function myFunction() {
   }
 }
 </script>
-	  
+	  </div>
+	  </div>	
   </header>
   
 		
@@ -166,9 +173,9 @@ function myFunction() {
 </div>	
 </div>
 	
-	
+
+<div class="col-sm-12">	
 <div id="about">	
-<div class="col-sm-12">
 
 <div class="parallax_1">  
 	<h1>About</h1>
@@ -188,7 +195,7 @@ function myFunction() {
 
 <div class="col-sm-5">	
 <h2 style="font-size:45px;">Concept</h2>
-<p style="font-size:20px; margin-left:2px;">Historal Booking was first born as a free platform to book 
+<p class="description-site" style="font-size:20px; margin-left:2px;">Historal Booking was first born as a free platform to book 
 a place in the queue for historical sites.
 It was born because since now many historical sites and museums do not have 
 suitable systems to manage the flow of the crowd. 
@@ -216,9 +223,11 @@ as main value. Moreover, by using this system pollution from paper waste can be 
 	
 	
 	</div> 
-	
+
+
+
+	<div class="col-sm-12">	
 <div id="sites">	
-<div class="col-sm-12">
 
 <div class="parallax_2">  
 	<h1>Historical Sites</h1>
@@ -289,8 +298,10 @@ as main value. Moreover, by using this system pollution from paper waste can be 
 	
 	</div> 	
 
+
+	<div class="col-sm-12">
 <div id="book">	
-<div class="col-sm-12">
+
 
 <div class="parallax_3">
 	<h1>Book</h1>
@@ -312,13 +323,13 @@ as main value. Moreover, by using this system pollution from paper waste can be 
 	
   <legend>Historical Site</legend>
   <select name="sites" id="sites" required>
-    <option value="Colosseum, Italy">Colosseum, Italy</option>
-    <option value="Petra, Jordan">Petra, Jordan</option>
-    <option value="Great Wall, China">Great Wall, China</option>
-    <option value="Machu Picchu, Peru">Machu Picchu, Peru</option>
-	<option value="Taj Mahal, India">Taj Mahal, India</option>
-	<option value="Chichen Itza, Mexico">Chichen Itza, Mexico</option>
-	<option value="Great Pyramid, Egypt">Great Pyramid, Egypt</option>
+    <option value="colosseum_Italy">Colosseum, Italy</option>
+    <option value="petra_jordan">Petra, Jordan</option>
+    <option value="great_wall_china">Great Wall, China</option>
+    <option value="machu_picchu_peru">Machu Picchu, Peru</option>
+	<option value="taj_mahal_india">Taj Mahal, India</option>
+	<option value="chichen_itza_mexico">Chichen Itza, Mexico</option>
+	<option value="great_pyramid_egypt">Great Pyramid, Egypt</option>
   </select>
 	<br><br>
 	<legend>Book a slot</legend>
@@ -386,9 +397,11 @@ echo"$msg";
 	</div>
 </div>	
 	</div> 
-	
+
+
+	<div class="col-sm-12">	
 <div id="contact">	
-<div class="col-sm-12">
+
 
 <div class="parallax_4">  
 	<h1>Contact</h1>
@@ -424,7 +437,8 @@ var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadedurati
 </body>
 
 	
-	
+<div class="row">
+<div class="col-sm-12">	
 <footer>
 <div class="links">
 	<div class="row">	
@@ -433,6 +447,8 @@ var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadedurati
 	<a href="https://goo.gl/maps/37aJe7hkfBaW8xyR7">Location</a>
 </div>
 	</div>	
+	</div>
+	</div>
 	</div>
 
 	</footer>	
