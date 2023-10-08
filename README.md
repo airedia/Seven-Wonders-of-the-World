@@ -1,4 +1,4 @@
-# Seven-Wonders-of-the-World
+# Seven Wonders of the World (Prototype)
 Prototype for a site to book a place in the queue for one of the Seven Wonders of the World
 
 ## Premises and Packages
