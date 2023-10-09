@@ -110,6 +110,8 @@ $result_s = mysqli_query($conn, $query_s);
 <!-- image for hambuger menu -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
+<script src="parallax.js"></script>
 </head>
 	
 	
@@ -172,7 +174,12 @@ function myFunction() {
 	</div>
 </div>	
 </div>
-	
+    <script>
+
+        if (isMobileDevice()) {
+            handleParallaxForMobile();
+        }
+    </script>	
 
 <div class="col-sm-12">	
 <div id="about">	
