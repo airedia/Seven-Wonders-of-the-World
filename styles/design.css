@@ -469,7 +469,7 @@ input[type=submit]{
     font-size: 16px;
    }
 
-   .section_banner_1, .section_banner_2, .section_banner_3, .section_banner_4 , .section_banner_5 , .section_banner_6{
+  .parallax_1, .parallax_2, .parallax_3, .parallax_4 , .parallax_5 , .parallax_6{
     background-attachment: scroll;
    }
 }
@@ -483,7 +483,7 @@ input[type=submit]{
     height: 1200px;
   }
 
-   .section_banner_1, .section_banner_2, .section_banner_3, .section_banner_4 , .section_banner_5 , .section_banner_6{
+  .parallax_1, .parallax_2, .parallax_3, .parallax_4 , .parallax_5 , .parallax_6{
     background-attachment: scroll;
    }
 }
