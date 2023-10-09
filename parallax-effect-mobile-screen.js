@@ -11,6 +11,20 @@ function handleParallaxForMobile() {
   var navigationBarHeight = navigationBar.offsetHeight;
   var lastScrollPosition = 0;
 
+  
+  var sectionBanners = [];
+  var parallaxElements = [];
+
+  for (var i = 1; i <= 4; i++) {
+    var sectionBanner = document.querySelector('.section_banner_' + i);
+    var parallax = document.querySelector('.parallax_' + i);
+
+    if (sectionBanner && parallax) {
+      sectionBanners.push(sectionBanner);
+      parallaxElements.push(parallax);
+    }
+  }
+
   window.addEventListener('scroll', handleParallax);
 
   function handleParallax() {
@@ -38,6 +52,22 @@ function handleParallaxForMobile() {
     }
 
     lastScrollPosition = scrollPosition;
+
+    // Apply the parallax effect to section_banner_X and parallax_X elements
+    for (var i = 0; i < sectionBanners.length; i++) {
+      var sectionBanner = sectionBanners[i];
+      var parallax = parallaxElements[i];
+
+      var parallaxOffsetX = (scrollPosition - parallax.offsetTop) * 0.4;
+
+      if (scrollPosition >= parallax.offsetTop) {
+        parallax.style.transform = 'translateY(' + parallaxOffsetX + 'px)';
+        sectionBanner.style.transform = 'translateY(' + -parallaxOffsetX + 'px)';
+      } else {
+        parallax.style.transform = 'translateY(0)';
+        sectionBanner.style.transform = 'translateY(0)';
+      }
+    }
   }
 
   // Apply the CSS for media queries
