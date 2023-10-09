@@ -468,6 +468,10 @@ input[type=submit]{
    .section_banner_5 p{
     font-size: 16px;
    }
+
+   .section_banner_1, .section_banner_2, .section_banner_3, .section_banner_4 , .section_banner_5 , .section_banner_6{
+    background-attachment: scroll;
+   }
 }
 
 @media screen and (min-width: 600px) and (max-width: 850px){
@@ -478,4 +482,8 @@ input[type=submit]{
   .section_banner_2{
     height: 1200px;
   }
+
+   .section_banner_1, .section_banner_2, .section_banner_3, .section_banner_4 , .section_banner_5 , .section_banner_6{
+    background-attachment: scroll;
+   }
 }
