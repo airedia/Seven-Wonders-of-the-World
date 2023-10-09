@@ -174,12 +174,7 @@ function myFunction() {
 	</div>
 </div>	
 </div>
-    <script>
-
-        if (isMobileDevice()) {
-            handleParallaxForMobile();
-        }
-    </script>	
+	
 
 <div class="col-sm-12">	
 <div id="about">	
@@ -441,6 +436,8 @@ var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadedurati
 
 	
 	</div>
+
+<script src="parallax.js"></script>
 </body>
 
 	
