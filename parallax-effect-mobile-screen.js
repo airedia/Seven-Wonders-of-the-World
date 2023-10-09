@@ -11,11 +11,11 @@ function handleParallaxForMobile() {
   var navigationBarHeight = navigationBar.offsetHeight;
   var lastScrollPosition = 0;
 
-  
+
   var sectionBanners = [];
   var parallaxElements = [];
 
-  for (var i = 1; i <= 4; i++) {
+  for (var i = 1; i <= 6; i++) {
     var sectionBanner = document.querySelector('.section_banner_' + i);
     var parallax = document.querySelector('.parallax_' + i);
 
@@ -53,7 +53,6 @@ function handleParallaxForMobile() {
 
     lastScrollPosition = scrollPosition;
 
-    // Apply the parallax effect to section_banner_X and parallax_X elements
     for (var i = 0; i < sectionBanners.length; i++) {
       var sectionBanner = sectionBanners[i];
       var parallax = parallaxElements[i];
