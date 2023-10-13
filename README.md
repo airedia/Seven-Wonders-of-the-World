@@ -29,7 +29,7 @@ To make your database secure, follow these steps:
   define('DB_NAME', 'your_database_name');
   ?>
   ```
-2. In your _index.php_ file, at the top, before the _<!DOCTYPE HTML>_ tag, add this:
+2. In your _index.php_ file, at the top, before the _< !DOCTYPE HTML >_ tag, add this:
    ```
    <?php
 
