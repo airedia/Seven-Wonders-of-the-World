@@ -36,7 +36,7 @@ session_start();
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	
-<title>Seven Wonders of the World - Prototype to book your place in the queue (Booking confirmation)</title>
+<title>Booking confirmation</title>
 
 <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" /> -->	
 <link rel="stylesheet" type="text/css" href="styles/design.css" /> 

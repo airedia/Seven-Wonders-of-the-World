@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `chichen itza, mexico`
 --
 
-CREATE TABLE `chichen_itza_mexico` (
+CREATE TABLE `chichen itza, mexico` (
   `ID` int(255) NOT NULL,
   `Name` text NOT NULL,
   `Date` date NOT NULL,
@@ -41,7 +41,7 @@ CREATE TABLE `chichen_itza_mexico` (
 -- Table structure for table `colosseum, italy`
 --
 
-CREATE TABLE `colosseum_italy` (
+CREATE TABLE `colosseum, italy` (
   `ID` int(255) NOT NULL,
   `Name` text NOT NULL,
   `Date` date NOT NULL,
@@ -53,8 +53,16 @@ CREATE TABLE `colosseum_italy` (
 -- Dumping data for table `colosseum, italy`
 --
 
+INSERT INTO `colosseum, italy` (`ID`, `Name`, `Date`, `Time`, `Number_people`) VALUES
+(13, 'Angela Iredia', '2023-05-17', 16, 2);
 
-CREATE TABLE `great_pyramid_egypt` (
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `great pyramid, egypt`
+--
+
+CREATE TABLE `great pyramid, egypt` (
   `ID` int(255) NOT NULL,
   `Name` text NOT NULL,
   `Date` date NOT NULL,
@@ -68,7 +76,7 @@ CREATE TABLE `great_pyramid_egypt` (
 -- Table structure for table `great wall, china`
 --
 
-CREATE TABLE `great_wall_china` (
+CREATE TABLE `great wall, china` (
   `ID` int(255) NOT NULL,
   `Name` text NOT NULL,
   `Date` date NOT NULL,
@@ -82,7 +90,7 @@ CREATE TABLE `great_wall_china` (
 -- Table structure for table `machu picchu, peru`
 --
 
-CREATE TABLE `machu_picchu_peru` (
+CREATE TABLE `machu picchu, peru` (
   `ID` int(255) NOT NULL,
   `Name` text NOT NULL,
   `Date` date NOT NULL,
@@ -96,7 +104,7 @@ CREATE TABLE `machu_picchu_peru` (
 -- Table structure for table `petra, jordan`
 --
 
-CREATE TABLE `petra_jordan` (
+CREATE TABLE `petra, jordan` (
   `ID` int(255) NOT NULL,
   `Name` text NOT NULL,
   `Date` date NOT NULL,
@@ -110,7 +118,7 @@ CREATE TABLE `petra_jordan` (
 -- Table structure for table `taj mahal, india`
 --
 
-CREATE TABLE `taj_mahal_india` (
+CREATE TABLE `taj mahal, india` (
   `ID` int(255) NOT NULL,
   `Name` text NOT NULL,
   `Date` date NOT NULL,
@@ -125,49 +133,49 @@ CREATE TABLE `taj_mahal_india` (
 --
 -- Indexes for table `chichen itza, mexico`
 --
-ALTER TABLE `chichen_itza_mexico`
+ALTER TABLE `chichen itza, mexico`
   ADD PRIMARY KEY (`ID`),
   ADD UNIQUE KEY `Time` (`Time`);
 
 --
 -- Indexes for table `colosseum, italy`
 --
-ALTER TABLE `colosseum_italy`
+ALTER TABLE `colosseum, italy`
   ADD PRIMARY KEY (`ID`),
   ADD UNIQUE KEY `Time` (`Time`);
 
 --
 -- Indexes for table `great pyramid, egypt`
 --
-ALTER TABLE `great_pyramid_egypt`
+ALTER TABLE `great pyramid, egypt`
   ADD PRIMARY KEY (`ID`),
   ADD UNIQUE KEY `Time` (`Time`);
 
 --
 -- Indexes for table `great wall, china`
 --
-ALTER TABLE `great_wall_china`
+ALTER TABLE `great wall, china`
   ADD PRIMARY KEY (`ID`),
   ADD UNIQUE KEY `Time` (`Time`);
 
 --
 -- Indexes for table `machu picchu, peru`
 --
-ALTER TABLE `machu_picchu_peru`
+ALTER TABLE `machu picchu, peru`
   ADD PRIMARY KEY (`ID`),
   ADD UNIQUE KEY `Time` (`Time`);
 
 --
 -- Indexes for table `petra, jordan`
 --
-ALTER TABLE `petra_jordan`
+ALTER TABLE `petra, jordan`
   ADD PRIMARY KEY (`ID`),
   ADD UNIQUE KEY `Time` (`Time`);
 
 --
 -- Indexes for table `taj mahal, india`
 --
-ALTER TABLE `taj_mahal_india`
+ALTER TABLE `taj mahal, india`
   ADD PRIMARY KEY (`ID`),
   ADD UNIQUE KEY `Time` (`Time`);
 
@@ -178,43 +186,43 @@ ALTER TABLE `taj_mahal_india`
 --
 -- AUTO_INCREMENT for table `chichen itza, mexico`
 --
-ALTER TABLE `chichen_itza_mexico`
+ALTER TABLE `chichen itza, mexico`
   MODIFY `ID` int(255) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `colosseum, italy`
 --
-ALTER TABLE `colosseum_italy`
+ALTER TABLE `colosseum, italy`
   MODIFY `ID` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `great pyramid, egypt`
 --
-ALTER TABLE `great_pyramid_egypt`
+ALTER TABLE `great pyramid, egypt`
   MODIFY `ID` int(255) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `great wall, china`
 --
-ALTER TABLE `great_wall_china`
+ALTER TABLE `great wall, china`
   MODIFY `ID` int(255) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `machu picchu, peru`
 --
-ALTER TABLE `machu_picchu_peru`
+ALTER TABLE `machu picchu, peru`
   MODIFY `ID` int(255) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `petra, jordan`
 --
-ALTER TABLE `petra_jordan`
+ALTER TABLE `petra, jordan`
   MODIFY `ID` int(255) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `taj mahal, india`
 --
-ALTER TABLE `taj_mahal_india`
+ALTER TABLE `taj mahal, india`
   MODIFY `ID` int(255) NOT NULL AUTO_INCREMENT;
 COMMIT;
 

@@ -38,7 +38,7 @@ session_start();
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	
-<title>Seven Wonders of the World - Prototype to book your place in the queue (Retrieve Booking)</title>
+<title>Retrieve Booking</title>
 
 <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" /> -->	
 <link rel="stylesheet" type="text/css" href="styles/design.css" /> 
@@ -52,8 +52,7 @@ session_start();
 </head>
 <header>	
 
-<div class="row">
-<div class="col-sm-12"> 	
+	
  
 <div class="topnav" id="myTopnav">
   <a href="#booking" class="active">Retrieve Your Booking</a>
@@ -75,8 +74,7 @@ function myFunction() {
   }
 }
 </script>
-</div>
-</div>
+	  
   </header>	
 	
 	
@@ -95,7 +93,7 @@ function myFunction() {
       <br>
       <p>Retrieve your booking here</p>
   <div id="retrieve_data">
-    <form action="" method="POST" class="RetrieveForm">
+    <form action="" method="POST" id="RetrieveForm">
 
       <br>
       <legend>Name on the Booking</legend>
@@ -103,18 +101,18 @@ function myFunction() {
 
       <legend>Historical Site</legend>
         <select name="sites" id="sites" required>
-        <option value="colosseum_italy">Colosseum, Italy</option>
-        <option value="petra_jordan">Petra, Jordan</option>
-      <option value="great_wall_china">Great Wall, China</option>
-      <option value="machu_picchu_peru">Machu Picchu, Peru</option>
-	  <option value="taj_mahal_india">Taj Mahal, India</option>
-	  <option value="chichen_itza_mexico">Chichen Itza, Mexico</option>
-	  <option value="great_pyramid_egypt">Great Pyramid, Egypt</option>
+        <option value="Colosseum, Italy">Colosseum, Italy</option>
+        <option value="Petra, Jordan">Petra, Jordan</option>
+      <option value="Great Wall, China">Great Wall, China</option>
+      <option value="Machu Picchu, Peru">Machu Picchu, Peru</option>
+	  <option value="Taj Mahal, India">Taj Mahal, India</option>
+	  <option value="Chichen Itza, Mexico">Chichen Itza, Mexico</option>
+	  <option value="Great Pyramid, Egypt">Great Pyramid, Egypt</option>
    </select>
 	<br><br>
 
       <legend>Ticket Number/ID</legend>
-      <input type="number" name="ID" id="number" required> <br><br>
+      <input type="number" name="ID" id="name" required> <br><br>
 
       <input type="submit" id="submit" name="submit" value="Retrieve" onclick="myFunction1()">
       <script>
@@ -232,8 +230,6 @@ document.getElementById('retrieve_data').innerHTML = '$msg';
 
 </body>
 
-<div class="row">
-  <div class="col-sm-12">
 <footer>
 <div class="links">
 	<div class="row">	
@@ -247,8 +243,6 @@ document.getElementById('retrieve_data').innerHTML = '$msg';
 	
 	</div>
 	</footer>	
-  </div>	
-	</div>
 	
 </html> 
 	

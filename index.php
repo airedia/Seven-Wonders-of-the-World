@@ -99,7 +99,7 @@ $result_s = mysqli_query($conn, $query_s);
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	
-<title>Seven Wonders of the World - Prototype to book your place in the queue (Homepage)</title>
+<title>Homepage</title>
 
 <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" /> -->	
 <link rel="stylesheet" type="text/css" href="styles/design.css" /> 
@@ -110,14 +110,12 @@ $result_s = mysqli_query($conn, $query_s);
 <!-- image for hambuger menu -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-<script src="parallax.js"></script>
 </head>
 	
 	
 <header>	
-<div class="row">
-<div class="col-sm-12"> 
+
+	
  
 <div class="topnav" id="myTopnav">
   <a href="#home" class="active">Home</a>
@@ -143,8 +141,7 @@ function myFunction() {
   }
 }
 </script>
-	  </div>
-	  </div>	
+	  
   </header>
   
 		
@@ -169,15 +166,15 @@ function myFunction() {
 <img src="images/World_Heritage_Site_logo.png" alt="Unesco" style="height:20%;";>
 <img src="images/unesco_logo.png" alt="Unesco" style="height:22%; padding:0;";>
 <br><br><br> <h2 style="font-weight:bold;">Historal Booking</h2>
-<p>This is the system to book your place in the queue in advance <br> for the 7th Wonders of the World without the hassle to wait <br> inside physical queue for hours</p>
+<p class="description-application-section">This is the system to book your place in the queue in advance for the 7th Wonders of the World without the hassle to wait inside physical queue for hours</p>
 </div>
 	</div>
 </div>	
 </div>
 	
-
-<div class="col-sm-12">	
+	
 <div id="about">	
+<div class="col-sm-12">
 
 <div class="parallax_1">  
 	<h1>About</h1>
@@ -197,7 +194,7 @@ function myFunction() {
 
 <div class="col-sm-5">	
 <h2 style="font-size:45px;">Concept</h2>
-<p class="description-site" style="font-size:20px; margin-left:2px;">Historal Booking was first born as a free platform to book 
+<p class="about-me" style="font-size:20px; margin-left:2px;text-align: justify; text-align-last: center">Historal Booking was first born as a free platform to book 
 a place in the queue for historical sites.
 It was born because since now many historical sites and museums do not have 
 suitable systems to manage the flow of the crowd. 
@@ -225,11 +222,9 @@ as main value. Moreover, by using this system pollution from paper waste can be 
 	
 	
 	</div> 
-
-
-
-	<div class="col-sm-12">	
+	
 <div id="sites">	
+<div class="col-sm-12">
 
 <div class="parallax_2">  
 	<h1>Historical Sites</h1>
@@ -245,7 +240,7 @@ as main value. Moreover, by using this system pollution from paper waste can be 
 
 	<div class="col-sm-3">
 	<img src="images/colosseum.png" alt="Colosseum" style="height:200px;";>
-<p style="font-size:16px; padding-left:2px;">The Colosseum is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world, despite its age. Construction began under the... <a href="https://en.wikipedia.org/wiki/Colosseum">Read</a></p>
+<p class="site-description-p" style="font-size:16px; padding-left:2px;">The Colosseum is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world, despite its age. Construction began under the... <a href="https://en.wikipedia.org/wiki/Colosseum">Read</a></p>
 </div>
 
 <div class="col-sm-1">
@@ -253,7 +248,7 @@ as main value. Moreover, by using this system pollution from paper waste can be 
 
 <div class="col-sm-3">
 <img src="images/great-pyramid-logo.png" alt="Great Pyramid" style="height:200px;";>
-<p style="font-size:16px; padding-left:2px;"> The Great Pyramid of Giza is the largest Egyptian pyramid and the tomb of Fourth Dynasty pharaoh Khufu. Built in the early 26th century BC during a period of around 27 years, the pyramid is the oldest of the Seven Wonders of the Ancient World, and the only one to remain... <a href="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">Read</a></p>
+<p class="site-description-p" style="font-size:16px; padding-left:2px;"> The Great Pyramid of Giza is the largest Egyptian pyramid and the tomb of Fourth Dynasty pharaoh Khufu. Built in the early 26th century BC during a period of around 27 years, the pyramid is the oldest of the Seven Wonders of the Ancient World, and the only one to remain... <a href="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">Read</a></p>
 </div>
 
 <div class="col-sm-1">
@@ -261,7 +256,7 @@ as main value. Moreover, by using this system pollution from paper waste can be 
 
 <div class="col-sm-3">
 <img src="images/machu picchu_logo.png" alt="Machu Picchu" style="height:200px;";>
-<p style="font-size:16px; padding-left:2px;">Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a 2,430-meter (7,970 ft) mountain ridge. Often referred to as the "Lost City of the Incas", it is the most familiar icon of the Inca Empire. It is located in the Machupicchu...  <a href="https://en.wikipedia.org/wiki/Machu_Picchu">Read</a></p>
+<p class="site-description-p" style="font-size:16px; padding-left:2px;">Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a 2,430-meter (7,970 ft) mountain ridge. Often referred to as the "Lost City of the Incas", it is the most familiar icon of the Inca Empire. It is located in the Machupicchu...  <a href="https://en.wikipedia.org/wiki/Machu_Picchu">Read</a></p>
 </div>
 
 
@@ -270,7 +265,7 @@ as main value. Moreover, by using this system pollution from paper waste can be 
 <div class="row" style="margin-left:5%;">
 <div class="col-sm-3">
 <img src="images/chichen-itza.png" alt="Chichen Itza, Mexico" style="height:200px;";>
-<p style="font-size:16px; padding-left:3px;">Chichén Itzá was a large pre-Columbian city built by the Maya people of the Terminal Classic period. The archeological site is located in Tinúm Municipality, Yucatán State, Mexico. Chichén Itzá was a major focal point in the Northern Maya Lowlands from the Late Classic... <a href="https://en.wikipedia.org/wiki/Chichen_Itza">Read</a></p>
+<p class="site-description-p" style="font-size:16px; padding-left:3px;">Chichén Itzá was a large pre-Columbian city built by the Maya people of the Terminal Classic period. The archeological site is located in Tinúm Municipality, Yucatán State, Mexico. Chichén Itzá was a major focal point in the Northern Maya Lowlands from the Late Classic... <a href="https://en.wikipedia.org/wiki/Chichen_Itza">Read</a></p>
 </div>
 
 <div class="col-sm-1">
@@ -278,7 +273,7 @@ as main value. Moreover, by using this system pollution from paper waste can be 
 
 <div class="col-sm-3">
 <img src="images/Taj Mahal_logo.png" alt="Machu Picchu" style="height:200px;";>
-<p style="font-size:16px; padding-left:2px;"> The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r. 1628–1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses... <a href="https://en.wikipedia.org/wiki/Taj_Mahal">Read</a></p>
+<p class="site-description-p" style="font-size:16px; padding-left:2px;"> The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r. 1628–1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses... <a href="https://en.wikipedia.org/wiki/Taj_Mahal">Read</a></p>
 </div>
 
 <div class="col-sm-1">
@@ -286,7 +281,7 @@ as main value. Moreover, by using this system pollution from paper waste can be 
 
 <div class="col-sm-3">
 <img src="images/petra_logo.png" alt="Machu Picchu" style="height:200px;";>
-<p style="font-size:16px; padding-left:2px;"> Petra, originally known to its inhabitants as Raqmu or Raqēmō, is a historic and archaeological city in southern Jordan. It is adjacent to the mountain of Jabal Al-Madbah, in a basin surrounded by mountains forming the eastern flank of the Arabah valley...  <a href="https://en.wikipedia.org/wiki/Petra">Read</a></p>
+<p class="site-description-p" style="font-size:16px; padding-left:2px;"> Petra, originally known to its inhabitants as Raqmu or Raqēmō, is a historic and archaeological city in southern Jordan. It is adjacent to the mountain of Jabal Al-Madbah, in a basin surrounded by mountains forming the eastern flank of the Arabah valley...  <a href="https://en.wikipedia.org/wiki/Petra">Read</a></p>
 </div>
 
 </div>
@@ -300,10 +295,8 @@ as main value. Moreover, by using this system pollution from paper waste can be 
 	
 	</div> 	
 
-
-	<div class="col-sm-12">
 <div id="book">	
-
+<div class="col-sm-12">
 
 <div class="parallax_3">
 	<h1>Book</h1>
@@ -325,13 +318,13 @@ as main value. Moreover, by using this system pollution from paper waste can be 
 	
   <legend>Historical Site</legend>
   <select name="sites" id="sites" required>
-    <option value="colosseum_Italy">Colosseum, Italy</option>
-    <option value="petra_jordan">Petra, Jordan</option>
-    <option value="great_wall_china">Great Wall, China</option>
-    <option value="machu_picchu_peru">Machu Picchu, Peru</option>
-	<option value="taj_mahal_india">Taj Mahal, India</option>
-	<option value="chichen_itza_mexico">Chichen Itza, Mexico</option>
-	<option value="great_pyramid_egypt">Great Pyramid, Egypt</option>
+    <option value="Colosseum, Italy">Colosseum, Italy</option>
+    <option value="Petra, Jordan">Petra, Jordan</option>
+    <option value="Great Wall, China">Great Wall, China</option>
+    <option value="Machu Picchu, Peru">Machu Picchu, Peru</option>
+	<option value="Taj Mahal, India">Taj Mahal, India</option>
+	<option value="Chichen Itza, Mexico">Chichen Itza, Mexico</option>
+	<option value="Great Pyramid, Egypt">Great Pyramid, Egypt</option>
   </select>
 	<br><br>
 	<legend>Book a slot</legend>
@@ -399,11 +392,9 @@ echo"$msg";
 	</div>
 </div>	
 	</div> 
-
-
-	<div class="col-sm-12">	
+	
 <div id="contact">	
-
+<div class="col-sm-12">
 
 <div class="parallax_4">  
 	<h1>Contact</h1>
@@ -436,13 +427,10 @@ var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadedurati
 
 	
 	</div>
-
-<script src="parallax.js"></script>
 </body>
 
 	
-<div class="row">
-<div class="col-sm-12">	
+	
 <footer>
 <div class="links">
 	<div class="row">	
@@ -451,8 +439,6 @@ var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadedurati
 	<a href="https://goo.gl/maps/37aJe7hkfBaW8xyR7">Location</a>
 </div>
 	</div>	
-	</div>
-	</div>
 	</div>
 
 	</footer>	

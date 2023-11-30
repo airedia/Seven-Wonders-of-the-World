@@ -7,19 +7,6 @@ body {
   
 }
 
-html,body {
-  margin:0;
-  padding:0;
-}
-
-.col-sm-12{
-  padding:0;
-}
-
-
-
-
-
 h1{
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	align-content: center;
@@ -53,6 +40,8 @@ h1{
 	text-align: center;
 }
 
+
+
 .parallax_1 {
   /* The image used */
   background-image: url("../images/about_banner_1.jpg");
@@ -68,7 +57,7 @@ h1{
 }
 
 .section_banner_1{
-	height:900px;
+	height:1100px;
 	background-color:#313131;
 	font-size:36px;
 	color: #FFFFFF;
@@ -76,6 +65,7 @@ h1{
 	align-items: center;
 	text-align: center;
 }
+
 
 .parallax_2 {
   /* The image used */
@@ -343,6 +333,28 @@ input[type=submit]{
 	padding-right: 10px;
 }
 
+.about-me{
+  text-justify: inter-word;
+	hyphens: auto;
+}
+
+.site-description-p{
+  text-align: justify;
+  text-align-last:center;
+  text-justify: inter-word;
+	hyphens: auto;
+}
+
+.description-application-section{
+  padding-left: 13%;
+  padding-right: 12%;
+  text-align: justify;
+  text-align-last:center;
+  text-justify: inter-word;
+	hyphens: auto;
+}
+
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -379,6 +391,7 @@ input[type=submit]{
 	.section_banner_2{
 		font-size: 16px;
 		padding-top: 5%;
+    height: 2500px;
 	}
 	.section_banner_3{
 		font-size: 16px;
@@ -400,12 +413,16 @@ input[type=submit]{
 	font-size: 7px;
 }	
 
-.section_banner_1 .col-sm-6 .col-sm-5 .col-sm-1{
-  padding: 0;
-  margin: 0;
+.about-me{
+  padding-left: 5%;
+  padding-right: 5%;
+  text-justify: inter-word;
+	hyphens: auto;
 }
 
-
+.site-description-p{
+  padding-right: 8%;
+}
 	
 }
 
@@ -423,67 +440,4 @@ input[type=submit]{
     display: block;
     text-align: left;
   }
-
-  .description-site{
-    text-align: justify;
-    text-align-last: center;
-    font-size: 16px;
-    padding-left: 6%;
-    padding-right: 4%;
-  }
-
-  .section_banner p{
-    font-size: 20px;
-    padding: 8%;
-  }
-
-  .section_banner_1{
-    height: 1000px;
-  }
-  .section_banner_2{
-    height: 2500px;
-  }
-
-  .section_banner_2 .p{
-    text-align: justify;
-    text-align-last: center;
-    font-size: 16px;
-  }
-
-  .section_banner_2 .col-sm-3{
-    padding-right: 10%;
-    font-size: 16px;
-    text-align: justify;
-    text-align-last: center;
-  }
-
-  .RetrieveForm #name, #number{
-    width: 90%;
-   }
-
-   .section_banner_5 h2{
-    font-size: 25px;
-   }
-
-   .section_banner_5 p{
-    font-size: 16px;
-   }
-
-  .parallax_1, .parallax_2, .parallax_3, .parallax_4 , .parallax_5 , .parallax_6{
-    background-attachment: scroll;
-   }
-}
-
-@media screen and (min-width: 600px) and (max-width: 850px){
-  .section_banner p{
-    font-size: 26px;
-  }
-  
-  .section_banner_2{
-    height: 1200px;
-  }
-
-  .parallax_1, .parallax_2, .parallax_3, .parallax_4 , .parallax_5 , .parallax_6{
-    background-attachment: scroll;
-   }
 }
