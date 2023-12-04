@@ -60,5 +60,8 @@ To make your database secure, follow these steps:
 
 __ATTENTION__: Before deployment, set the config.php file permission to _600_ in your _public_html_ directory, available with your chosen domain service.
 
+## UPDATE: Prototype link
+The link has been updated, please visit the prototype of the web-based application here: https://seven-wonders-of-the-world-prototype.scienceontheweb.net//
+
 ## License
 Only personal use. For any other use, please contact me here: https://forms.gle/G7TLUy2CUyBaNEEy7 .
